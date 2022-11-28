@@ -1,7 +1,6 @@
 body{
     font-size: 18px;
     color: white;
-    background-color: #12222c;
 }
 h1{
     font-size: 72px;
@@ -14,6 +13,18 @@ h2{
 h3{
     font-size: 30px;
     color: orange;
+}
+
+#bg-actualities{
+    background-image: url("images/bg-prog.jpg");
+    background-repeat:no-repeat;
+    background-size: cover;
+}
+
+#bg-overlay-actualities{
+    background: rgba(2, 1, 1, 0.8);
+    width:100%;
+    height: 100%;;
 }
 
 header{
@@ -61,6 +72,13 @@ header{
     color: white;
     border-radius: 50px;
     padding: 18px;
+}
+
+.border-top-bottom{
+    width: 10%;
+    border-width: 1px 0px 1px 0px;
+    border-style: solid;
+    border-color: white;
 }
 
 .card{
