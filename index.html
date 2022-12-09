@@ -1,1181 +1,1187 @@
 <!DOCTYPE html>
 <html lang="fr">
-<head>
+  <head>
     <!-- Meta -->
-    <meta charset="UTF-8"/>
-    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <!-- Page name -->
     <title>Les Films de Plein Air</title>
     <!-- Bootstrap css -->
     <link
-            href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
-            rel="stylesheet"
-            integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
-            crossorigin="anonymous"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
     />
     <!-- Fontawesome icon -->
     <script
-            src="https://kit.fontawesome.com/f0830ea878.js"
-            crossorigin="anonymous"
+      src="https://kit.fontawesome.com/f0830ea878.js"
+      crossorigin="anonymous"
     ></script>
     <!-- Css page -->
-    <link rel="stylesheet" href="style.css"/>
-</head>
+    <link rel="stylesheet" href="style.css" />
+  </head>
 
-<body class="bg-light">
-<!-- Header -->
-<header>
-    <!-- bootstrap navbar module -->
-    <div id="nav-container" class="bg-dark">
+  <body class="bg-light">
+    <!-- Header -->
+    <header>
+      <!-- bootstrap navbar module -->
+      <div id="nav-container" class="bg-dark">
         <nav class="navbar navbar-expand-lg navbar-dark bg-dark px-2 px-lg-5">
-            <div class="container-fluid">
-                <!-- Logo -->
-                <div class="logo-container">
-                    <a class="navbar-brand" href="#"
-                    ><img id="logo" src="images/logo.png" alt="Logo"
-                    /></a>
-                </div>
-
-                <!-- Button menu for tablette and smartphone -->
-                <button
-                        class="navbar-toggler"
-                        type="button"
-                        data-bs-toggle="collapse"
-                        data-bs-target="#navbarNavAltMarkup"
-                        aria-controls="navbarNavAltMarkup"
-                        aria-expanded="false"
-                        aria-label="Toggle navigation"
-                >
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-
-                <!-- Navbar links -->
-                <div
-                        class="collapse navbar-collapse bg-dark"
-                        id="navbarNavAltMarkup"
-                >
-                    <ul
-                            class="navbar-nav d-flex justify-content-lg-end align-items-center"
-                    >
-                        <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="#"
-                            >Accueil</a
-                            >
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#apropos">Événement</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#programme">Programme</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#actualités">Actualités</a>
-                        </li>
-                    </ul>
-
-                    <!-- Button for reservation -->
-                    <div class="mt-3 mt-lg-0 d-flex justify-content-center">
-                        <a
-                                class="btn btn-primary ms-lg-5 mb-4 mb-lg-0"
-                                href="#réservations"
-                        >Réserver</a
-                        >
-                    </div>
-                </div>
+          <div class="container-fluid">
+            <!-- Logo -->
+            <div class="logo-container">
+              <a class="navbar-brand" href="#"
+                ><img id="logo" src="images/logo.png" alt="Logo"
+              /></a>
             </div>
+
+            <!-- Button menu for tablette and smartphone -->
+            <button
+              class="navbar-toggler"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#navbarNavAltMarkup"
+              aria-controls="navbarNavAltMarkup"
+              aria-expanded="false"
+              aria-label="Toggle navigation"
+            >
+              <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <!-- Navbar links -->
+            <div
+              class="collapse navbar-collapse bg-dark"
+              id="navbarNavAltMarkup"
+            >
+              <ul
+                class="navbar-nav d-flex justify-content-lg-end align-items-center"
+              >
+                <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="#"
+                    >Accueil</a
+                  >
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#apropos">Événement</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#programme">Programme</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#actualités">Actualités</a>
+                </li>
+              </ul>
+
+              <!-- Button for reservation -->
+              <div class="mt-3 mt-lg-0 d-flex justify-content-center">
+                <a
+                  class="btn btn-primary ms-lg-5 mb-4 mb-lg-0"
+                  href="#réservations"
+                  >Réserver</a
+                >
+              </div>
+            </div>
+          </div>
         </nav>
-    </div>
-    <!-- bootstrap navbar module -->
-</header>
-<!-- Header -->
+      </div>
+      <!-- bootstrap navbar module -->
+    </header>
+    <!-- Header -->
 
-<!-- Main -->
-<main>
-    <!-- button to top -->
-    <a href="#" class="text-decoration-none" id="button-to-top"
-    ><i class="fas fa-arrow-up bg-primary"></i
-    ></a>
+    <!-- Main -->
+    <main>
+      <!-- button to top -->
+      <a href="#" class="text-decoration-none" id="button-to-top"
+        ><i class="fas fa-arrow-up bg-primary"></i
+      ></a>
 
-    <!-- Heroe -->
-    <section id="présentation" class="mb-5">
+      <!-- Heroe -->
+      <section id="présentation" class="mb-5">
         <div
-                class="bg-overlay-hero d-flex align-items-end align-items-md-center justify-content-center px-3 px-md-0"
+          class="bg-overlay-hero d-flex align-items-end align-items-md-center justify-content-center px-3 px-md-0"
         >
-            <div id="title">
-                <h1 class="text-center mb-5">Les Films de Plein Air</h1>
-                <p class="text-center sub-h1">Découvrez nos films d'auteur</p>
-                <p class="text-center sub-h1">
-                    Du 5 au 8 août 2023 au Parc Monceau à Paris
-                </p>
-            </div>
+          <div id="title">
+            <h1 class="text-center mb-5">Les Films de Plein Air</h1>
+            <p class="text-center sub-h1">Découvrez nos films d'auteur</p>
+            <p class="text-center sub-h1">
+              Du 5 au 8 août 2023 au Parc Monceau à Paris
+            </p>
+          </div>
         </div>
-    </section>
+      </section>
 
-    <!-- Événement section -->
-    <section
-            id="apropos"
-            class="mb-5 p-2 p-lg-5 d-flex flex-column align-items-center"
-    >
+      <!-- Événement section -->
+      <section
+        id="apropos"
+        class="mb-5 p-2 p-lg-5 d-flex flex-column align-items-center"
+      >
         <div class="border-top-bottom my-5"></div>
         <h2 class="text-center mb-4">A propos du festival</h2>
         <p class="text-center">
-            L'association “Les Films de Plein Air” est fière de vous annoncer la
-            projection de films d'auteur, en plein air, au Parc Monceau à Paris du
-            05/08 au 08/08 2023. Je suis Jennifer Edwards, organisatrice du
-            festival. Je vais sélectionner pour vous quelques-uns des meilleurs
-            films d'auteur et vous les faire découvrir gratuitement, tous les
-            soirs de 18h00 à 00h00, pendant toute la durée du festival. Pour nous
-            aider à organiser au mieux l'événement, veuillez vous préinscrire aux
-            séances en nous envoyant un e-mail via le formulaire en bas de page.
+          L'association “Les Films de Plein Air” est fière de vous annoncer la
+          projection de films d'auteur, en plein air, au Parc Monceau à Paris du
+          05/08 au 08/08 2023. Je suis Jennifer Edwards, organisatrice du
+          festival. Je vais sélectionner pour vous quelques-uns des meilleurs
+          films d'auteur et vous les faire découvrir gratuitement, tous les
+          soirs de 18h00 à 00h00, pendant toute la durée du festival. Pour nous
+          aider à organiser au mieux l'événement, veuillez vous préinscrire aux
+          séances en nous envoyant un e-mail via le formulaire en bas de page.
         </p>
         <p class="text-center">BON FILM !!</p>
         <div class="border-top-bottom my-5"></div>
-    </section>
+      </section>
 
-    <!-- Programme section -->
-    <section id="programme" class="mb-5">
+      <!-- Programme section -->
+      <section id="programme" class="mb-5">
         <div
-                class="bg-overlay-prog row p-5 w-100 h-100 mx-0 d-flex justify-content-evenly"
+          class="bg-overlay-prog row p-5 w-100 h-100 mx-0 d-flex justify-content-evenly"
         >
-            <div class="col-12 col-md-6 text-center text-md-start mb-3 mb-md-0">
-                <h2>Le Programme</h2>
-            </div>
+          <div class="col-12 col-md-6 text-center text-md-start mb-3 mb-md-0">
+            <h2>Le Programme</h2>
+          </div>
+          <div
+            class="bg-text-prog col-12 col-md-6 text-center text-md-start px-3 py-2"
+          >
+            <p class="m-auto text-prog">
+              Voici ma sélection de films d'auteur, il y a plusieurs styles pour
+              ravir le plus grand nombre. Petits et grands pourront découvrir ou
+              redécouvrir ces chefs-d'œuvre. N'oubliez pas, les projections sont
+              GRATUITES !!
+            </p>
+          </div>
+
+          <!-- Programme for the first day -->
+          <div class="row d-flex justify-content-evenly">
+            <h3 class="mb-3 mt-5 m-md-2">Le 05/08</h3>
+
             <div
-                    class="bg-text-prog col-12 col-md-6 text-center text-md-start px-3 py-2"
+              class="col-lg-3 col-md-4 col-12 py-md-5 py-3 d-flex justify-content-center"
             >
-                <p class="m-auto text-prog">
-                    Voici ma sélection de films d'auteur, il y a plusieurs styles pour
-                    ravir le plus grand nombre. Petits et grands pourront découvrir ou
-                    redécouvrir ces chefs-d'œuvre. N'oubliez pas, les projections sont
-                    GRATUITES !!
-                </p>
+              <!-- Card -->
+              <a data-bs-toggle="modal" data-bs-target="#melancholiaModal">
+                <div class="card-container h-100">
+                  <img
+                    src="/images/melancholia.webp"
+                    alt="affiche melancholia"
+                    class="img-fluid mb-2"
+                  />
+                  <h4 class="mt-2 mb-3">Melancholia</h4>
+                  <p class="ms-2">Horaire : 18h00 - 19h30</p>
+                  <p class="ms-2">Réalisateur : Lars Von Trier</p>
+                </div>
+              </a>
+              <!-- Card -->
+
+              <!-- Bootstrap modal-->
+              <div
+                class="modal fade"
+                id="melancholiaModal"
+                tabindex="-1"
+                aria-labelledby="melancholiaModalLabel"
+                aria-hidden="true"
+              >
+                <div
+                  class="modal-dialog modal-dialog-centered modal-dialog-scrollable"
+                >
+                  <div class="modal-content bg-dark">
+                    <div class="modal-body p-0">
+                      <img
+                        id="melancholiaModalLabel"
+                        src="/images/affiche-melancholia.webp"
+                        alt="affiche melancholia"
+                        class="w-100"
+                      />
+                      <p class="p-3">
+                        <strong>Résumé :</strong> Justine se marie. Elle a voulu
+                        une grande cérémonie et un wedding planner de haut vol.
+                        Mais elle et Michael arrivent en retard à la réception,
+                        au grand dam de Claire, la sœur de la mariée, qui a tout
+                        organisé. Pendant le dîner, le père des deux filles boit
+                        trop tandis que leur mère clame haut et fort son mépris
+                        du mariage. Le regard de Justine se trouble. La jeune
+                        femme cherche de plus en plus à échapper aux festivités,
+                        jusqu'à tout faire capoter.
+                      </p>
+                    </div>
+
+                    <div class="modal-footer">
+                      <button
+                        type="button"
+                        class="btn btn-primary"
+                        data-bs-dismiss="modal"
+                      >
+                        Fermer
+                      </button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <!-- Bootstrap modal -->
             </div>
 
-            <!-- Programme for the first day -->
-            <div class="row d-flex justify-content-evenly">
-                <h3 class="mb-3 mt-5 m-md-2">Le 05/08</h3>
-
-                <div
-                        class="col-lg-3 col-md-4 col-12 py-md-5 py-3 d-flex justify-content-center"
-                >
-                    <!-- Card -->
-                    <a data-bs-toggle="modal" data-bs-target="#melancholiaModal">
-                        <div class="card-container h-100">
-                            <img
-                                    src="/images/melancholia.webp"
-                                    alt="affiche melancholia"
-                                    class="img-fluid mb-2"
-                            />
-                            <h4 class="mt-2 mb-3">Melancholia</h4>
-                            <p class="ms-2">Horaire : 18h00 - 19h30</p>
-                            <p class="ms-2">Réalisateur : Lars Von Trier</p>
-                        </div>
-                    </a>
-                    <!-- Card -->
-
-                    <!-- Bootstrap modal-->
-                    <div
-                            class="modal fade"
-                            id="melancholiaModal"
-                            tabindex="-1"
-                            aria-labelledby="melancholiaModalLabel"
-                            aria-hidden="true"
-                    >
-                        <div
-                                class="modal-dialog modal-dialog-centered modal-dialog-scrollable"
-                        >
-                            <div class="modal-content bg-dark">
-                                <div class="modal-body p-0">
-                                    <img
-                                            id="melancholiaModalLabel"
-                                            src="/images/affiche-melancholia.webp"
-                                            alt="affiche melancholia"
-                                            class="w-100"
-                                    />
-                                    <p class="p-3">
-                                        <strong>Résumé :</strong> Justine se marie. Elle a voulu
-                                        une grande cérémonie et un wedding planner de haut vol.
-                                        Mais elle et Michael arrivent en retard à la réception,
-                                        au grand dam de Claire, la sœur de la mariée, qui a tout
-                                        organisé. Pendant le dîner, le père des deux filles boit
-                                        trop tandis que leur mère clame haut et fort son mépris
-                                        du mariage. Le regard de Justine se trouble. La jeune
-                                        femme cherche de plus en plus à échapper aux festivités,
-                                        jusqu'à tout faire capoter.
-                                    </p>
-                                </div>
-
-                                <div class="modal-footer">
-                                    <button
-                                            type="button"
-                                            class="btn btn-primary"
-                                            data-bs-dismiss="modal"
-                                    >
-                                        Fermer
-                                    </button>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <!-- Bootstrap modal -->
+            <div
+              class="col-lg-3 col-md-4 col-12 py-md-5 py-3 d-flex justify-content-center"
+            >
+              <!-- Card -->
+              <a data-bs-toggle="modal" data-bs-target="#leguerrierModal">
+                <div class="card-container h-100">
+                  <img
+                    src="/images/le_guerrier_silencieux_valhalla_.webp"
+                    alt="affiche le guerrier silencieux"
+                    class="img-fluid mb-2"
+                  />
+                  <h4 class="mt-2 mb-3">Le Guerrier Silencieux</h4>
+                  <p class="ms-2">Horaire : 20h00 - 21h30</p>
+                  <p class="ms-2">Réalisateur : Nicolas Refn</p>
                 </div>
+              </a>
+              <!-- Card -->
 
+              <!-- Bootstrap modal -->
+              <div
+                class="modal fade"
+                id="leguerrierModal"
+                tabindex="-1"
+                aria-labelledby="leguerrierModalLabel"
+                aria-hidden="true"
+              >
                 <div
-                        class="col-lg-3 col-md-4 col-12 py-md-5 py-3 d-flex justify-content-center"
+                  class="modal-dialog modal-dialog-centered modal-dialog-scrollable"
                 >
-                    <!-- Card -->
-                    <a data-bs-toggle="modal" data-bs-target="#leguerrierModal">
-                        <div class="card-container h-100">
-                            <img
-                                    src="/images/le_guerrier_silencieux_valhalla_.webp"
-                                    alt="affiche le guerrier silencieux"
-                                    class="img-fluid mb-2"
-                            />
-                            <h4 class="mt-2 mb-3">Le Guerrier Silencieux</h4>
-                            <p class="ms-2">Horaire : 20h00 - 21h30</p>
-                            <p class="ms-2">Réalisateur : Nicolas Refn</p>
-                        </div>
-                    </a>
-                    <!-- Card -->
-
-                    <!-- Bootstrap modal -->
-                    <div
-                            class="modal fade"
-                            id="leguerrierModal"
-                            tabindex="-1"
-                            aria-labelledby="leguerrierModalLabel"
-                            aria-hidden="true"
-                    >
-                        <div
-                                class="modal-dialog modal-dialog-centered modal-dialog-scrollable"
-                        >
-                            <div class="modal-content bg-dark">
-                                <div class="modal-body p-0">
-                                    <img
-                                            id="leguerrierModalLabel"
-                                            src="/images/affiche-le-guerrier-silencieux.webp"
-                                            alt="affiche le guerrier silencieux"
-                                            class="w-100"
-                                    />
-                                    <p class="p-3">
-                                        <strong>Résumé :</strong> Pendant des années, One-Eye,
-                                        un guerrier muet et sauvage, a été le prisonnier de
-                                        Barde, un redoutable chef de clan. Grâce à l'aide d'un
-                                        enfant, Are, il parvient à tuer son geôlier et ensemble,
-                                        ils s'échappent. À deux, ils s'embarquent pour un voyage
-                                        au cœur des ténèbres
-                                    </p>
-                                </div>
-
-                                <div class="modal-footer">
-                                    <button
-                                            type="button"
-                                            class="btn btn-primary"
-                                            data-bs-dismiss="modal"
-                                    >
-                                        Fermer
-                                    </button>
-                                </div>
-                            </div>
-                        </div>
+                  <div class="modal-content bg-dark">
+                    <div class="modal-body p-0">
+                      <img
+                        id="leguerrierModalLabel"
+                        src="/images/affiche-le-guerrier-silencieux.webp"
+                        alt="affiche le guerrier silencieux"
+                        class="w-100"
+                      />
+                      <p class="p-3">
+                        <strong>Résumé :</strong> Pendant des années, One-Eye,
+                        un guerrier muet et sauvage, a été le prisonnier de
+                        Barde, un redoutable chef de clan. Grâce à l'aide d'un
+                        enfant, Are, il parvient à tuer son geôlier et ensemble,
+                        ils s'échappent. À deux, ils s'embarquent pour un voyage
+                        au cœur des ténèbres
+                      </p>
                     </div>
-                </div>
-                <!-- Bootstrap modal -->
 
-                <div
-                        class="col-lg-3 col-md-4 col-12 py-md-5 py-3 d-flex justify-content-center"
-                >
-                    <!-- Card -->
-                    <a data-bs-toggle="modal" data-bs-target="#deadmanModal">
-                        <div class="card-container h-100">
-                            <img
-                                    src="/images/dead_man.webp"
-                                    alt="affiche dead man"
-                                    class="img-fluid mb-2"
-                            />
-                            <h4 class="mt-2 mb-3">Dead Man</h4>
-                            <p class="ms-2">Horaire : 22h00 - 00h00</p>
-                            <p class="ms-2">Réalisateur : Jim Jarmusch</p>
-                        </div>
-                    </a>
-                    <!-- Card -->
-
-                    <!-- Bootstrap modal -->
-                    <div
-                            class="modal fade"
-                            id="deadmanModal"
-                            tabindex="-1"
-                            aria-labelledby="deadmanModalLabel"
-                            aria-hidden="true"
-                    >
-                        <div
-                                class="modal-dialog modal-dialog-centered modal-dialog-scrollable"
-                        >
-                            <div class="modal-content bg-dark">
-                                <div class="modal-body p-0">
-                                    <img
-                                            id="deadmanModalLabel"
-                                            src="/images/affiche-dead-man.webp"
-                                            alt="affiche dead man"
-                                            class="w-100"
-                                    />
-                                    <p class="p-3">
-                                        <strong>Résumé :</strong> En Amérique, dans la deuxième
-                                        moitié du XIXe siècle, William Blake accepte un emploi
-                                        de comptable dans une ville minière de l'Ouest. Arrivé
-                                        sur place, rien ne fonctionne comme prévu. Le pays et
-                                        ses habitants contrastent singulièrement avec la
-                                        civilisation urbaine qu'il a connue et William devient
-                                        un tueur malgré lui, poursuivi par un trio de chasseurs
-                                        de primes.
-                                    </p>
-                                </div>
-
-                                <div class="modal-footer">
-                                    <button
-                                            type="button"
-                                            class="btn btn-primary"
-                                            data-bs-dismiss="modal"
-                                    >
-                                        Fermer
-                                    </button>
-                                </div>
-                            </div>
-                        </div>
+                    <div class="modal-footer">
+                      <button
+                        type="button"
+                        class="btn btn-primary"
+                        data-bs-dismiss="modal"
+                      >
+                        Fermer
+                      </button>
                     </div>
+                  </div>
                 </div>
-                <!-- Boostrap modal -->
+              </div>
             </div>
-            <!-- Programme for the first day -->
+            <!-- Bootstrap modal -->
 
-            <!-- Programme for the second day -->
-            <div class="row d-flex justify-content-evenly">
-                <h3 class="mb-3 mt-5 m-md-2">Le 06/08</h3>
-
-                <div
-                        class="col-lg-3 col-md-4 col-12 py-md-5 py-3 d-flex justify-content-center"
-                >
-                    <!-- Card -->
-                    <a data-bs-toggle="modal" data-bs-target="#leonModal">
-                        <div class="card-container h-100">
-                            <img
-                                    src="/images/Leon.webp"
-                                    alt="affiche leon"
-                                    class="img-fluid mb-2"
-                            />
-                            <h4 class="mt-2 mb-3">Léon</h4>
-                            <p class="ms-2">Horaire : 18h00 - 19h30</p>
-                            <p class="ms-2">Réalisateur : Luc Besson</p>
-                        </div>
-                    </a>
-                    <!-- Card -->
-
-                    <!-- Bootstrap modal -->
-                    <div
-                            class="modal fade"
-                            id="leonModal"
-                            tabindex="-1"
-                            aria-labelledby="leonModalLabel"
-                            aria-hidden="true"
-                    >
-                        <div
-                                class="modal-dialog modal-dialog-centered modal-dialog-scrollable"
-                        >
-                            <div class="modal-content bg-dark">
-                                <div class="modal-body p-0">
-                                    <img
-                                            id="leonModalLabel"
-                                            src="/images/affiche-leon.webp"
-                                            alt="affiche leon"
-                                            class="w-100"
-                                    />
-                                    <p class="p-3">
-                                        <strong>Résumé :</strong> Un tueur à gages répondant au
-                                        nom de Léon prend sous son aile Mathilda, une petite
-                                        fille de 12 ans, seule rescapée du massacre de sa
-                                        famille. Bientôt, Léon va faire de Mathilda une
-                                        `nettoyeuse', comme lui. La jeune fille pourra alors
-                                        venger son petit frère.
-                                    </p>
-                                </div>
-
-                                <div class="modal-footer">
-                                    <button
-                                            type="button"
-                                            class="btn btn-primary"
-                                            data-bs-dismiss="modal"
-                                    >
-                                        Fermer
-                                    </button>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <!-- Bootstrap modal -->
+            <div
+              class="col-lg-3 col-md-4 col-12 py-md-5 py-3 d-flex justify-content-center"
+            >
+              <!-- Card -->
+              <a data-bs-toggle="modal" data-bs-target="#deadmanModal">
+                <div class="card-container h-100">
+                  <img
+                    src="/images/dead_man.webp"
+                    alt="affiche dead man"
+                    class="img-fluid mb-2"
+                  />
+                  <h4 class="mt-2 mb-3">Dead Man</h4>
+                  <p class="ms-2">Horaire : 22h00 - 00h00</p>
+                  <p class="ms-2">Réalisateur : Jim Jarmusch</p>
                 </div>
+              </a>
+              <!-- Card -->
 
+              <!-- Bootstrap modal -->
+              <div
+                class="modal fade"
+                id="deadmanModal"
+                tabindex="-1"
+                aria-labelledby="deadmanModalLabel"
+                aria-hidden="true"
+              >
                 <div
-                        class="col-lg-3 col-md-4 col-12 py-md-5 py-3 d-flex justify-content-center"
+                  class="modal-dialog modal-dialog-centered modal-dialog-scrollable"
                 >
-                    <!-- Card -->
-                    <a data-bs-toggle="modal" data-bs-target="#smileModal">
-                        <div class="card-container h-100">
-                            <img
-                                    src="/images/smile.webp"
-                                    alt="affiche smile"
-                                    class="img-fluid mb-2"
-                            />
-                            <h4 class="mt-2 mb-3">Smile</h4>
-                            <p class="ms-2">Horaire : 20h00 - 21h30</p>
-                            <p class="ms-2">Réalisateur : Parker Finn</p>
-                        </div>
-                    </a>
-                    <!-- Card -->
-
-                    <!-- Bootstrap modal -->
-                    <div
-                            class="modal fade"
-                            id="smileModal"
-                            tabindex="-1"
-                            aria-labelledby="smileModalLabel"
-                            aria-hidden="true"
-                    >
-                        <div
-                                class="modal-dialog modal-dialog-centered modal-dialog-scrollable"
-                        >
-                            <div class="modal-content bg-dark">
-                                <div class="modal-body p-0">
-                                    <img
-                                            id="smileModalLabel"
-                                            src="/images/affiche-smile.webp"
-                                            alt="affiche smile"
-                                            class="w-100"
-                                    />
-                                    <p class="p-3">
-                                        <strong>Résumé :</strong> Après avoir été témoin d'un
-                                        incident étrange et traumatisant impliquant un patient,
-                                        la Dr Rose Cotter commence à vivre des événements
-                                        effrayants qu'elle ne peut expliquer. Alors qu'une
-                                        terreur écrasante commence à s'emparer de sa vie, Rose
-                                        doit affronter son passé troublant afin de survivre et
-                                        d'échapper à sa nouvelle réalité horrifiante.
-                                    </p>
-                                </div>
-
-                                <div class="modal-footer">
-                                    <button
-                                            type="button"
-                                            class="btn btn-primary"
-                                            data-bs-dismiss="modal"
-                                    >
-                                        Fermer
-                                    </button>
-                                </div>
-                            </div>
-                        </div>
+                  <div class="modal-content bg-dark">
+                    <div class="modal-body p-0">
+                      <img
+                        id="deadmanModalLabel"
+                        src="/images/affiche-dead-man.webp"
+                        alt="affiche dead man"
+                        class="w-100"
+                      />
+                      <p class="p-3">
+                        <strong>Résumé :</strong> En Amérique, dans la deuxième
+                        moitié du XIXe siècle, William Blake accepte un emploi
+                        de comptable dans une ville minière de l'Ouest. Arrivé
+                        sur place, rien ne fonctionne comme prévu. Le pays et
+                        ses habitants contrastent singulièrement avec la
+                        civilisation urbaine qu'il a connue et William devient
+                        un tueur malgré lui, poursuivi par un trio de chasseurs
+                        de primes.
+                      </p>
                     </div>
-                </div>
-                <!-- Bootstrap modal -->
 
-                <div
-                        class="col-lg-3 col-md-4 col-12 py-md-5 py-3 d-flex justify-content-center"
-                >
-                    <!-- Card -->
-                    <a data-bs-toggle="modal" data-bs-target="#radioactiveModal">
-                        <div class="card-container h-100">
-                            <img
-                                    src="/images/radioactive.webp"
-                                    alt="affiche radioactive"
-                                    class="img-fluid mb-2"
-                            />
-                            <h4 class="mt-2 mb-3">Radioactive</h4>
-                            <p class="ms-2">Horaire : 22h00 - 00h00</p>
-                            <p class="ms-2">Réalisatrice : Marjane Satrapi</p>
-                        </div>
-                    </a>
-                    <!-- Card -->
-
-                    <!-- Bootstrap modal -->
-                    <div
-                            class="modal fade"
-                            id="radioactiveModal"
-                            tabindex="-1"
-                            aria-labelledby="radioactiveModalLabel"
-                            aria-hidden="true"
-                    >
-                        <div
-                                class="modal-dialog modal-dialog-centered modal-dialog-scrollable"
-                        >
-                            <div class="modal-content bg-dark">
-                                <div class="modal-body p-0">
-                                    <img
-                                            id="radioactiveModalLabel"
-                                            src="/images/affiche-radioactive.webp"
-                                            alt="affiche radioactive"
-                                            class="w-100"
-                                    />
-                                    <p class="p-3">
-                                        <strong>Résumé :</strong> Les relations passionnées et
-                                        les découvertes scientifiques de Marie Curie, ainsi que
-                                        les conséquences qui en ont découlé pour elle et pour le
-                                        monde entier. Elle a rencontré Pierre Curie, ils se sont
-                                        mariés et ont changé à jamais la science en découvrant
-                                        la radioactivité. Le génie de leur découverte a changé
-                                        le monde et le prix Nobel qui s'ensuivit propulsa le
-                                        couple sous les feux de la rampe internationale.
-                                    </p>
-                                </div>
-
-                                <div class="modal-footer">
-                                    <button
-                                            type="button"
-                                            class="btn btn-primary"
-                                            data-bs-dismiss="modal"
-                                    >
-                                        Fermer
-                                    </button>
-                                </div>
-                            </div>
-                        </div>
+                    <div class="modal-footer">
+                      <button
+                        type="button"
+                        class="btn btn-primary"
+                        data-bs-dismiss="modal"
+                      >
+                        Fermer
+                      </button>
                     </div>
+                  </div>
                 </div>
-                <!-- Bootstrap modal -->
+              </div>
             </div>
-            <!-- Programme for the second day -->
+            <!-- Boostrap modal -->
+          </div>
+          <!-- Programme for the first day -->
 
-            <!-- Programme for the third day -->
-            <div class="row d-flex justify-content-evenly">
-                <h3 class="mb-3 mt-5 m-md-2">Le 07/08</h3>
+          <!-- Programme for the second day -->
+          <div class="row d-flex justify-content-evenly">
+            <h3 class="mb-3 mt-5 m-md-2">Le 06/08</h3>
 
-                <div
-                        class="col-lg-3 col-md-4 col-12 py-md-5 py-3 d-flex justify-content-center"
-                >
-                    <!-- Card -->
-                    <a data-bs-toggle="modal" data-bs-target="#after-earthModal">
-                        <div class="card-container h-100 w-100">
-                            <img
-                                    src="/images/after-earth.webp"
-                                    alt="affiche after-earth"
-                                    class="img-fluid mb-2"
-                            />
-                            <h4 class="mt-2 mb-3">After-Earth</h4>
-                            <p class="ms-2">Horaire : 18h00 - 19h30</p>
-                            <p class="ms-2">Réalisateur : M. Night Shyamalan</p>
-                        </div>
-                    </a>
-                    <!-- Card -->
-
-                    <!-- Bootstrap modal -->
-                    <div
-                            class="modal fade"
-                            id="after-earthModal"
-                            tabindex="-1"
-                            aria-labelledby="after-earthModalLabel"
-                            aria-hidden="true"
-                    >
-                        <div
-                                class="modal-dialog modal-dialog-centered modal-dialog-scrollable"
-                        >
-                            <div class="modal-content bg-dark">
-                                <div class="modal-body p-0">
-                                    <img
-                                            id="after-earthModalLabel"
-                                            src="/images/affiche-after-earth.webp"
-                                            alt="affiche after-earth"
-                                            class="w-100"
-                                    />
-                                    <p class="p-3">
-                                        <strong>Résumé :</strong> Après un atterrissage forcé,
-                                        Kitai Raige et son père, Cypher, se retrouvent sur
-                                        Terre, mille ans après que l'humanité a été obligée
-                                        d'évacuer la planète, chassée par des événements
-                                        cataclysmiques. Cypher est grièvement blessé, et Kitai
-                                        s'engage dans un périple à haut risque pour signaler
-                                        leur présence et demander de l'aide. Il va explorer des
-                                        lieux inconnus, affronter les espèces animales qui ont
-                                        évolué et dominent à présent la planète, et combattre
-                                        une créature extraterrestre redoutable.
-                                    </p>
-                                </div>
-
-                                <div class="modal-footer">
-                                    <button
-                                            type="button"
-                                            class="btn btn-primary"
-                                            data-bs-dismiss="modal"
-                                    >
-                                        Fermer
-                                    </button>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <!-- Bootstrap modal -->
+            <div
+              class="col-lg-3 col-md-4 col-12 py-md-5 py-3 d-flex justify-content-center"
+            >
+              <!-- Card -->
+              <a data-bs-toggle="modal" data-bs-target="#leonModal">
+                <div class="card-container h-100">
+                  <img
+                    src="/images/Leon.webp"
+                    alt="affiche leon"
+                    class="img-fluid mb-2"
+                  />
+                  <h4 class="mt-2 mb-3">Léon</h4>
+                  <p class="ms-2">Horaire : 18h00 - 19h30</p>
+                  <p class="ms-2">Réalisateur : Luc Besson</p>
                 </div>
+              </a>
+              <!-- Card -->
 
+              <!-- Bootstrap modal -->
+              <div
+                class="modal fade"
+                id="leonModal"
+                tabindex="-1"
+                aria-labelledby="leonModalLabel"
+                aria-hidden="true"
+              >
                 <div
-                        class="col-lg-3 col-md-4 col-12 py-md-5 py-3 d-flex justify-content-center"
+                  class="modal-dialog modal-dialog-centered modal-dialog-scrollable"
                 >
-                    <!-- Card -->
-                    <a data-bs-toggle="modal" data-bs-target="#harry-potterModal">
-                        <div class="card-container h-100">
-                            <img
-                                    src="/images/harry-potter.webp"
-                                    alt="affiche harry-potter"
-                                    class="img-fluid mb-2"
-                            />
-                            <h4 class="mt-2 mb-3">Harry Potter</h4>
-                            <p class="ms-2">Horaire : 20h00 - 21h30</p>
-                            <p class="ms-2">Réalisateur : Chris Columbus</p>
-                        </div>
-                    </a>
-                    <!-- Card -->
-
-                    <!-- Bootstrap modal -->
-                    <div
-                            class="modal fade"
-                            id="harry-potterModal"
-                            tabindex="-1"
-                            aria-labelledby="harry-potterModalLabel"
-                            aria-hidden="true"
-                    >
-                        <div
-                                class="modal-dialog modal-dialog-centered modal-dialog-scrollable"
-                        >
-                            <div class="modal-content bg-dark">
-                                <div class="modal-body p-0">
-                                    <img
-                                            id="harry-potterModalLabel"
-                                            src="/images/affiche-harry-potter.webp"
-                                            alt="affiche harry-potter"
-                                            class="w-100"
-                                    />
-                                    <p class="p-3">
-                                        <strong>Résumé :</strong> Harry Potter, un jeune
-                                        orphelin, est élevé par son oncle et sa tante qui le
-                                        détestent. Alors qu'il était haut comme trois pommes,
-                                        ces derniers lui ont raconté que ses parents étaient
-                                        morts dans un accident de voiture. Le jour de son
-                                        onzième anniversaire, Harry reçoit la visite inattendue
-                                        d'un homme gigantesque se nommant Rubeus Hagrid, et
-                                        celui-ci lui révèle qu'il est en fait le fils de deux
-                                        puissants magiciens et qu'il possède lui aussi
-                                        d'extraordinaires pouvoirs.
-                                    </p>
-                                </div>
-
-                                <div class="modal-footer">
-                                    <button
-                                            type="button"
-                                            class="btn btn-primary"
-                                            data-bs-dismiss="modal"
-                                    >
-                                        Fermer
-                                    </button>
-                                </div>
-                            </div>
-                        </div>
+                  <div class="modal-content bg-dark">
+                    <div class="modal-body p-0">
+                      <img
+                        id="leonModalLabel"
+                        src="/images/affiche-leon.webp"
+                        alt="affiche leon"
+                        class="w-100"
+                      />
+                      <p class="p-3">
+                        <strong>Résumé :</strong> Un tueur à gages répondant au
+                        nom de Léon prend sous son aile Mathilda, une petite
+                        fille de 12 ans, seule rescapée du massacre de sa
+                        famille. Bientôt, Léon va faire de Mathilda une
+                        `nettoyeuse', comme lui. La jeune fille pourra alors
+                        venger son petit frère.
+                      </p>
                     </div>
-                    <!-- Bootstrap modal -->
-                </div>
 
-                <div
-                        class="col-lg-3 col-md-4 col-12 py-md-5 py-3 d-flex justify-content-center"
-                >
-                    <!-- Card -->
-                    <a data-bs-toggle="modal" data-bs-target="#çaModal">
-                        <div class="card-container h-100">
-                            <img
-                                    src="/images/ça.webp"
-                                    alt="affiche ça"
-                                    class="img-fluid mb-2"
-                            />
-                            <h4 class="mt-2 mb-3">Ça</h4>
-                            <p class="ms-2">Horaire : 22h00 - 00h00</p>
-                            <p class="ms-2">Réalisateur : Andrés Muschietti</p>
-                        </div>
-                    </a>
-                    <!-- Card -->
-
-                    <!-- Bootstrap modal -->
-                    <div
-                            class="modal fade"
-                            id="çaModal"
-                            tabindex="-1"
-                            aria-labelledby="çaModalLabel"
-                            aria-hidden="true"
-                    >
-                        <div
-                                class="modal-dialog modal-dialog-centered modal-dialog-scrollable"
-                        >
-                            <div class="modal-content bg-dark">
-                                <div class="modal-body p-0">
-                                    <img
-                                            id="çaModalLabel"
-                                            src="/images/affiche-ça.webp"
-                                            alt="affiche ça"
-                                            class="w-100"
-                                    />
-                                    <p class="p-3">
-                                        <strong>Résumé :</strong> Vingt-sept ans après les
-                                        événements de la première attaque, le clown diabolique
-                                        Pennywise revient hanter les rues de Derry, une ville
-                                        paisible dans le Maine. Les membres du Club des Ratés,
-                                        désormais adultes, se retrouvent alors après avoir été
-                                        séparés les uns des autres depuis longtemps.
-                                    </p>
-                                </div>
-
-                                <div class="modal-footer">
-                                    <button
-                                            type="button"
-                                            class="btn btn-primary"
-                                            data-bs-dismiss="modal"
-                                    >
-                                        Fermer
-                                    </button>
-                                </div>
-                            </div>
-                        </div>
+                    <div class="modal-footer">
+                      <button
+                        type="button"
+                        class="btn btn-primary"
+                        data-bs-dismiss="modal"
+                      >
+                        Fermer
+                      </button>
                     </div>
-                    <!-- Bootstrap modal -->
+                  </div>
                 </div>
+              </div>
+              <!-- Bootstrap modal -->
             </div>
-            <!-- Programme for the third day -->
 
-            <!-- Programme for the fourth day -->
-            <div class="row d-flex justify-content-evenly">
-                <h3 class="mb-3 mt-5 m-md-2">Le 08/08</h3>
-
-                <div
-                        class="col-lg-3 col-md-4 col-12 py-md-5 py-3 d-flex justify-content-center"
-                >
-                    <!-- Card -->
-                    <a data-bs-toggle="modal" data-bs-target="#mariaModal">
-                        <div class="card-container h-100">
-                            <img
-                                    src="/images/maria-reve.webp"
-                                    alt="affiche maria"
-                                    class="img-fluid mb-2"
-                            />
-                            <h4 class="mt-2 mb-3">Maria Rêve</h4>
-                            <p class="ms-2">Horaire : 18h00 - 19h30</p>
-                            <p class="ms-2">Réalisateur : Lauriane Escaffre</p>
-                        </div>
-                    </a>
-                    <!-- Card -->
-
-                    <!-- Bootstrap modal -->
-                    <div
-                            class="modal fade"
-                            id="mariaModal"
-                            tabindex="-1"
-                            aria-labelledby="mariaModalLabel"
-                            aria-hidden="true"
-                    >
-                        <div
-                                class="modal-dialog modal-dialog-centered modal-dialog-scrollable"
-                        >
-                            <div class="modal-content bg-dark">
-                                <div class="modal-body p-0">
-                                    <img
-                                            id="mariaModalLabel"
-                                            src="/images/affiche-maria-reve.webp"
-                                            alt="affiche melancholia"
-                                            class="w-100"
-                                    />
-                                    <p class="p-3">
-                                        <strong>Résumé :</strong> Maria est une femme de ménage,
-                                        timide et maladroite. Lorsqu'elle est affectée à l'École
-                                        des beaux-arts, elle rencontre Hubert, le fantasque
-                                        tuteur de l'école. Elle y découvre un lieu fascinant où
-                                        règnent liberté, créativité et audace.
-                                    </p>
-                                </div>
-
-                                <div class="modal-footer">
-                                    <button
-                                            type="button"
-                                            class="btn btn-primary"
-                                            data-bs-dismiss="modal"
-                                    >
-                                        Fermer
-                                    </button>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <!-- Bootstrap modal -->
+            <div
+              class="col-lg-3 col-md-4 col-12 py-md-5 py-3 d-flex justify-content-center"
+            >
+              <!-- Card -->
+              <a data-bs-toggle="modal" data-bs-target="#smileModal">
+                <div class="card-container h-100">
+                  <img
+                    src="/images/smile.webp"
+                    alt="affiche smile"
+                    class="img-fluid mb-2"
+                  />
+                  <h4 class="mt-2 mb-3">Smile</h4>
+                  <p class="ms-2">Horaire : 20h00 - 21h30</p>
+                  <p class="ms-2">Réalisateur : Parker Finn</p>
                 </div>
+              </a>
+              <!-- Card -->
 
+              <!-- Bootstrap modal -->
+              <div
+                class="modal fade"
+                id="smileModal"
+                tabindex="-1"
+                aria-labelledby="smileModalLabel"
+                aria-hidden="true"
+              >
                 <div
-                        class="col-lg-3 col-md-4 col-12 py-md-5 py-3 d-flex justify-content-center"
+                  class="modal-dialog modal-dialog-centered modal-dialog-scrollable"
                 >
-                    <!-- Card -->
-                    <a data-bs-toggle="modal" data-bs-target="#ensembleModal">
-                        <div class="card-container h-100">
-                            <img
-                                    src="/images/nous-finirons-ensemble.webp"
-                                    alt="affiche nous finirons ensemble"
-                                    class="img-fluid mb-2"
-                            />
-                            <h4 class="mt-2 mb-3">Nous Finirons Ensemble</h4>
-                            <p class="ms-2">Horaire : 20h00 - 21h30</p>
-                            <p class="ms-2">Réalisateur : Guillaume Canet</p>
-                        </div>
-                    </a>
-                    <!-- Card -->
-
-                    <!-- Bootstrap modal -->
-                    <div
-                            class="modal fade"
-                            id="ensembleModal"
-                            tabindex="-1"
-                            aria-labelledby="ensembleModalLabel"
-                            aria-hidden="true"
-                    >
-                        <div
-                                class="modal-dialog modal-dialog-centered modal-dialog-scrollable"
-                        >
-                            <div class="modal-content bg-dark">
-                                <div class="modal-body p-0">
-                                    <img
-                                            id="ensembleModalLabel"
-                                            src="/images/affiche-nous-finirons-ensemble.webp"
-                                            alt="affiche le guerrier silencieux"
-                                            class="w-100"
-                                    />
-                                    <p class="p-3">
-                                        <strong>Résumé :</strong> Préoccupé, Max est parti dans
-                                        sa maison au bord de la mer pour se ressourcer. Sa bande
-                                        de potes, qu'il n'a pas vue depuis plus de trois ans
-                                        débarque par surprise pour lui fêter son anniversaire !
-                                        La surprise est entière, mais l'accueil l'est beaucoup
-                                        moins. Max s'enfonce alors dans une comédie du bonheur
-                                        qui sonne faux, et qui mettra le groupe dans des
-                                        situations pour le moins inattendues. Les enfants ont
-                                        grandi, d'autres sont nés, les parents n'ont plus les
-                                        mêmes priorités.
-                                    </p>
-                                </div>
-
-                                <div class="modal-footer">
-                                    <button
-                                            type="button"
-                                            class="btn btn-primary"
-                                            data-bs-dismiss="modal"
-                                    >
-                                        Fermer
-                                    </button>
-                                </div>
-                            </div>
-                        </div>
+                  <div class="modal-content bg-dark">
+                    <div class="modal-body p-0">
+                      <img
+                        id="smileModalLabel"
+                        src="/images/affiche-smile.webp"
+                        alt="affiche smile"
+                        class="w-100"
+                      />
+                      <p class="p-3">
+                        <strong>Résumé :</strong> Après avoir été témoin d'un
+                        incident étrange et traumatisant impliquant un patient,
+                        la Dr Rose Cotter commence à vivre des événements
+                        effrayants qu'elle ne peut expliquer. Alors qu'une
+                        terreur écrasante commence à s'emparer de sa vie, Rose
+                        doit affronter son passé troublant afin de survivre et
+                        d'échapper à sa nouvelle réalité horrifiante.
+                      </p>
                     </div>
-                    <!-- Bootstrap modal -->
-                </div>
 
-                <div
-                        class="col-lg-3 col-md-4 col-12 py-md-5 py-3 d-flex justify-content-center"
-                >
-                    <!-- Card -->
-                    <a data-bs-toggle="modal" data-bs-target="#therevenantModal">
-                        <div class="card-container h-100">
-                            <img
-                                    src="/images/the-revenant.webp"
-                                    alt="affiche the revenant"
-                                    class="img-fluid mb-2"
-                            />
-                            <h4 class="mt-2 mb-3">The Revenant</h4>
-                            <p class="ms-2">Horaire : 22h00 - 00h00</p>
-                            <p class="ms-2">Réalisateur : Alejandro Gonzales</p>
-                        </div>
-                    </a>
-                    <!-- Card -->
-
-                    <!-- Bootstrap modal -->
-                    <div
-                            class="modal fade"
-                            id="therevenantModal"
-                            tabindex="-1"
-                            aria-labelledby="therevenantModalLabel"
-                            aria-hidden="true"
-                    >
-                        <div
-                                class="modal-dialog modal-dialog-centered modal-dialog-scrollable"
-                        >
-                            <div class="modal-content bg-dark">
-                                <div class="modal-body p-0">
-                                    <img
-                                            id="therevenantModalLabel"
-                                            src="/images/affiche-the-revenant.webp"
-                                            alt="affiche dead man"
-                                            class="w-100"
-                                    />
-                                    <p class="p-3">
-                                        <strong>Résumé :</strong> Durant une expédition dans une
-                                        Amérique profondément sauvage, le légendaire trappeur
-                                        Hugh Glass est brutalement attaqué par un ours et laissé
-                                        pour mort par les membres de sa propre équipe. Dans sa
-                                        quête de survie, Glass endure une souffrance
-                                        inimaginable ainsi que la trahison de son homme de
-                                        confiance, John Fitzgerald. Guidé par la volonté et
-                                        l'amour de sa famille, Glass doit affronter un hiver
-                                        brutal dans une inexorable lutte pour survivre et
-                                        trouver la rédemption.
-                                    </p>
-                                </div>
-
-                                <div class="modal-footer">
-                                    <button
-                                            type="button"
-                                            class="btn btn-primary"
-                                            data-bs-dismiss="modal"
-                                    >
-                                        Fermer
-                                    </button>
-                                </div>
-                            </div>
-                        </div>
+                    <div class="modal-footer">
+                      <button
+                        type="button"
+                        class="btn btn-primary"
+                        data-bs-dismiss="modal"
+                      >
+                        Fermer
+                      </button>
                     </div>
-                    <!-- Bootstrap modal -->
+                  </div>
                 </div>
+              </div>
             </div>
-            <!-- Programme for the fourth day -->
+            <!-- Bootstrap modal -->
+
+            <div
+              class="col-lg-3 col-md-4 col-12 py-md-5 py-3 d-flex justify-content-center"
+            >
+              <!-- Card -->
+              <a data-bs-toggle="modal" data-bs-target="#radioactiveModal">
+                <div class="card-container h-100">
+                  <img
+                    src="/images/radioactive.webp"
+                    alt="affiche radioactive"
+                    class="img-fluid mb-2"
+                  />
+                  <h4 class="mt-2 mb-3">Radioactive</h4>
+                  <p class="ms-2">Horaire : 22h00 - 00h00</p>
+                  <p class="ms-2">Réalisatrice : Marjane Satrapi</p>
+                </div>
+              </a>
+              <!-- Card -->
+
+              <!-- Bootstrap modal -->
+              <div
+                class="modal fade"
+                id="radioactiveModal"
+                tabindex="-1"
+                aria-labelledby="radioactiveModalLabel"
+                aria-hidden="true"
+              >
+                <div
+                  class="modal-dialog modal-dialog-centered modal-dialog-scrollable"
+                >
+                  <div class="modal-content bg-dark">
+                    <div class="modal-body p-0">
+                      <img
+                        id="radioactiveModalLabel"
+                        src="/images/affiche-radioactive.webp"
+                        alt="affiche radioactive"
+                        class="w-100"
+                      />
+                      <p class="p-3">
+                        <strong>Résumé :</strong> Les relations passionnées et
+                        les découvertes scientifiques de Marie Curie, ainsi que
+                        les conséquences qui en ont découlé pour elle et pour le
+                        monde entier. Elle a rencontré Pierre Curie, ils se sont
+                        mariés et ont changé à jamais la science en découvrant
+                        la radioactivité. Le génie de leur découverte a changé
+                        le monde et le prix Nobel qui s'ensuivit propulsa le
+                        couple sous les feux de la rampe internationale.
+                      </p>
+                    </div>
+
+                    <div class="modal-footer">
+                      <button
+                        type="button"
+                        class="btn btn-primary"
+                        data-bs-dismiss="modal"
+                      >
+                        Fermer
+                      </button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- Bootstrap modal -->
+          </div>
+          <!-- Programme for the second day -->
+
+          <!-- Programme for the third day -->
+          <div class="row d-flex justify-content-evenly">
+            <h3 class="mb-3 mt-5 m-md-2">Le 07/08</h3>
+
+            <div
+              class="col-lg-3 col-md-4 col-12 py-md-5 py-3 d-flex justify-content-center"
+            >
+              <!-- Card -->
+              <a data-bs-toggle="modal" data-bs-target="#after-earthModal">
+                <div class="card-container h-100 w-100">
+                  <img
+                    src="/images/after-earth.webp"
+                    alt="affiche after-earth"
+                    class="img-fluid mb-2"
+                  />
+                  <h4 class="mt-2 mb-3">After-Earth</h4>
+                  <p class="ms-2">Horaire : 18h00 - 19h30</p>
+                  <p class="ms-2">Réalisateur : M. Night Shyamalan</p>
+                </div>
+              </a>
+              <!-- Card -->
+
+              <!-- Bootstrap modal -->
+              <div
+                class="modal fade"
+                id="after-earthModal"
+                tabindex="-1"
+                aria-labelledby="after-earthModalLabel"
+                aria-hidden="true"
+              >
+                <div
+                  class="modal-dialog modal-dialog-centered modal-dialog-scrollable"
+                >
+                  <div class="modal-content bg-dark">
+                    <div class="modal-body p-0">
+                      <img
+                        id="after-earthModalLabel"
+                        src="/images/affiche-after-earth.webp"
+                        alt="affiche after-earth"
+                        class="w-100"
+                      />
+                      <p class="p-3">
+                        <strong>Résumé :</strong> Après un atterrissage forcé,
+                        Kitai Raige et son père, Cypher, se retrouvent sur
+                        Terre, mille ans après que l'humanité a été obligée
+                        d'évacuer la planète, chassée par des événements
+                        cataclysmiques. Cypher est grièvement blessé, et Kitai
+                        s'engage dans un périple à haut risque pour signaler
+                        leur présence et demander de l'aide. Il va explorer des
+                        lieux inconnus, affronter les espèces animales qui ont
+                        évolué et dominent à présent la planète, et combattre
+                        une créature extraterrestre redoutable.
+                      </p>
+                    </div>
+
+                    <div class="modal-footer">
+                      <button
+                        type="button"
+                        class="btn btn-primary"
+                        data-bs-dismiss="modal"
+                      >
+                        Fermer
+                      </button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <!-- Bootstrap modal -->
+            </div>
+
+            <div
+              class="col-lg-3 col-md-4 col-12 py-md-5 py-3 d-flex justify-content-center"
+            >
+              <!-- Card -->
+              <a data-bs-toggle="modal" data-bs-target="#harry-potterModal">
+                <div class="card-container h-100">
+                  <img
+                    src="/images/harry-potter.webp"
+                    alt="affiche harry-potter"
+                    class="img-fluid mb-2"
+                  />
+                  <h4 class="mt-2 mb-3">Harry Potter</h4>
+                  <p class="ms-2">Horaire : 20h00 - 21h30</p>
+                  <p class="ms-2">Réalisateur : Chris Columbus</p>
+                </div>
+              </a>
+              <!-- Card -->
+
+              <!-- Bootstrap modal -->
+              <div
+                class="modal fade"
+                id="harry-potterModal"
+                tabindex="-1"
+                aria-labelledby="harry-potterModalLabel"
+                aria-hidden="true"
+              >
+                <div
+                  class="modal-dialog modal-dialog-centered modal-dialog-scrollable"
+                >
+                  <div class="modal-content bg-dark">
+                    <div class="modal-body p-0">
+                      <img
+                        id="harry-potterModalLabel"
+                        src="/images/affiche-harry-potter.webp"
+                        alt="affiche harry-potter"
+                        class="w-100"
+                      />
+                      <p class="p-3">
+                        <strong>Résumé :</strong> Harry Potter, un jeune
+                        orphelin, est élevé par son oncle et sa tante qui le
+                        détestent. Alors qu'il était haut comme trois pommes,
+                        ces derniers lui ont raconté que ses parents étaient
+                        morts dans un accident de voiture. Le jour de son
+                        onzième anniversaire, Harry reçoit la visite inattendue
+                        d'un homme gigantesque se nommant Rubeus Hagrid, et
+                        celui-ci lui révèle qu'il est en fait le fils de deux
+                        puissants magiciens et qu'il possède lui aussi
+                        d'extraordinaires pouvoirs.
+                      </p>
+                    </div>
+
+                    <div class="modal-footer">
+                      <button
+                        type="button"
+                        class="btn btn-primary"
+                        data-bs-dismiss="modal"
+                      >
+                        Fermer
+                      </button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <!-- Bootstrap modal -->
+            </div>
+
+            <div
+              class="col-lg-3 col-md-4 col-12 py-md-5 py-3 d-flex justify-content-center"
+            >
+              <!-- Card -->
+              <a data-bs-toggle="modal" data-bs-target="#çaModal">
+                <div class="card-container h-100">
+                  <img
+                    src="/images/ça.webp"
+                    alt="affiche ça"
+                    class="img-fluid mb-2"
+                  />
+                  <h4 class="mt-2 mb-3">Ça</h4>
+                  <p class="ms-2">Horaire : 22h00 - 00h00</p>
+                  <p class="ms-2">Réalisateur : Andrés Muschietti</p>
+                </div>
+              </a>
+              <!-- Card -->
+
+              <!-- Bootstrap modal -->
+              <div
+                class="modal fade"
+                id="çaModal"
+                tabindex="-1"
+                aria-labelledby="çaModalLabel"
+                aria-hidden="true"
+              >
+                <div
+                  class="modal-dialog modal-dialog-centered modal-dialog-scrollable"
+                >
+                  <div class="modal-content bg-dark">
+                    <div class="modal-body p-0">
+                      <img
+                        id="çaModalLabel"
+                        src="/images/affiche-ça.webp"
+                        alt="affiche ça"
+                        class="w-100"
+                      />
+                      <p class="p-3">
+                        <strong>Résumé :</strong> Vingt-sept ans après les
+                        événements de la première attaque, le clown diabolique
+                        Pennywise revient hanter les rues de Derry, une ville
+                        paisible dans le Maine. Les membres du Club des Ratés,
+                        désormais adultes, se retrouvent alors après avoir été
+                        séparés les uns des autres depuis longtemps.
+                      </p>
+                    </div>
+
+                    <div class="modal-footer">
+                      <button
+                        type="button"
+                        class="btn btn-primary"
+                        data-bs-dismiss="modal"
+                      >
+                        Fermer
+                      </button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <!-- Bootstrap modal -->
+            </div>
+          </div>
+          <!-- Programme for the third day -->
+
+          <!-- Programme for the fourth day -->
+          <div class="row d-flex justify-content-evenly">
+            <h3 class="mb-3 mt-5 m-md-2">Le 08/08</h3>
+
+            <div
+              class="col-lg-3 col-md-4 col-12 py-md-5 py-3 d-flex justify-content-center"
+            >
+              <!-- Card -->
+              <a data-bs-toggle="modal" data-bs-target="#mariaModal">
+                <div class="card-container h-100">
+                  <img
+                    src="/images/maria-reve.webp"
+                    alt="affiche maria"
+                    class="img-fluid mb-2"
+                  />
+                  <h4 class="mt-2 mb-3">Maria Rêve</h4>
+                  <p class="ms-2">Horaire : 18h00 - 19h30</p>
+                  <p class="ms-2">Réalisateur : Lauriane Escaffre</p>
+                </div>
+              </a>
+              <!-- Card -->
+
+              <!-- Bootstrap modal -->
+              <div
+                class="modal fade"
+                id="mariaModal"
+                tabindex="-1"
+                aria-labelledby="mariaModalLabel"
+                aria-hidden="true"
+              >
+                <div
+                  class="modal-dialog modal-dialog-centered modal-dialog-scrollable"
+                >
+                  <div class="modal-content bg-dark">
+                    <div class="modal-body p-0">
+                      <img
+                        id="mariaModalLabel"
+                        src="/images/affiche-maria-reve.webp"
+                        alt="affiche melancholia"
+                        class="w-100"
+                      />
+                      <p class="p-3">
+                        <strong>Résumé :</strong> Maria est une femme de ménage,
+                        timide et maladroite. Lorsqu'elle est affectée à l'École
+                        des beaux-arts, elle rencontre Hubert, le fantasque
+                        tuteur de l'école. Elle y découvre un lieu fascinant où
+                        règnent liberté, créativité et audace.
+                      </p>
+                    </div>
+
+                    <div class="modal-footer">
+                      <button
+                        type="button"
+                        class="btn btn-primary"
+                        data-bs-dismiss="modal"
+                      >
+                        Fermer
+                      </button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <!-- Bootstrap modal -->
+            </div>
+
+            <div
+              class="col-lg-3 col-md-4 col-12 py-md-5 py-3 d-flex justify-content-center"
+            >
+              <!-- Card -->
+              <a data-bs-toggle="modal" data-bs-target="#ensembleModal">
+                <div class="card-container h-100">
+                  <img
+                    src="/images/nous-finirons-ensemble.webp"
+                    alt="affiche nous finirons ensemble"
+                    class="img-fluid mb-2"
+                  />
+                  <h4 class="mt-2 mb-3">Nous Finirons Ensemble</h4>
+                  <p class="ms-2">Horaire : 20h00 - 21h30</p>
+                  <p class="ms-2">Réalisateur : Guillaume Canet</p>
+                </div>
+              </a>
+              <!-- Card -->
+
+              <!-- Bootstrap modal -->
+              <div
+                class="modal fade"
+                id="ensembleModal"
+                tabindex="-1"
+                aria-labelledby="ensembleModalLabel"
+                aria-hidden="true"
+              >
+                <div
+                  class="modal-dialog modal-dialog-centered modal-dialog-scrollable"
+                >
+                  <div class="modal-content bg-dark">
+                    <div class="modal-body p-0">
+                      <img
+                        id="ensembleModalLabel"
+                        src="/images/affiche-nous-finirons-ensemble.webp"
+                        alt="affiche le guerrier silencieux"
+                        class="w-100"
+                      />
+                      <p class="p-3">
+                        <strong>Résumé :</strong> Préoccupé, Max est parti dans
+                        sa maison au bord de la mer pour se ressourcer. Sa bande
+                        de potes, qu'il n'a pas vue depuis plus de trois ans
+                        débarque par surprise pour lui fêter son anniversaire !
+                        La surprise est entière, mais l'accueil l'est beaucoup
+                        moins. Max s'enfonce alors dans une comédie du bonheur
+                        qui sonne faux, et qui mettra le groupe dans des
+                        situations pour le moins inattendues. Les enfants ont
+                        grandi, d'autres sont nés, les parents n'ont plus les
+                        mêmes priorités.
+                      </p>
+                    </div>
+
+                    <div class="modal-footer">
+                      <button
+                        type="button"
+                        class="btn btn-primary"
+                        data-bs-dismiss="modal"
+                      >
+                        Fermer
+                      </button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <!-- Bootstrap modal -->
+            </div>
+
+            <div
+              class="col-lg-3 col-md-4 col-12 py-md-5 py-3 d-flex justify-content-center"
+            >
+              <!-- Card -->
+              <a data-bs-toggle="modal" data-bs-target="#therevenantModal">
+                <div class="card-container h-100">
+                  <img
+                    src="/images/the-revenant.webp"
+                    alt="affiche the revenant"
+                    class="img-fluid mb-2"
+                  />
+                  <h4 class="mt-2 mb-3">The Revenant</h4>
+                  <p class="ms-2">Horaire : 22h00 - 00h00</p>
+                  <p class="ms-2">Réalisateur : Alejandro Gonzales</p>
+                </div>
+              </a>
+              <!-- Card -->
+
+              <!-- Bootstrap modal -->
+              <div
+                class="modal fade"
+                id="therevenantModal"
+                tabindex="-1"
+                aria-labelledby="therevenantModalLabel"
+                aria-hidden="true"
+              >
+                <div
+                  class="modal-dialog modal-dialog-centered modal-dialog-scrollable"
+                >
+                  <div class="modal-content bg-dark">
+                    <div class="modal-body p-0">
+                      <img
+                        id="therevenantModalLabel"
+                        src="/images/affiche-the-revenant.webp"
+                        alt="affiche dead man"
+                        class="w-100"
+                      />
+                      <p class="p-3">
+                        <strong>Résumé :</strong> Durant une expédition dans une
+                        Amérique profondément sauvage, le légendaire trappeur
+                        Hugh Glass est brutalement attaqué par un ours et laissé
+                        pour mort par les membres de sa propre équipe. Dans sa
+                        quête de survie, Glass endure une souffrance
+                        inimaginable ainsi que la trahison de son homme de
+                        confiance, John Fitzgerald. Guidé par la volonté et
+                        l'amour de sa famille, Glass doit affronter un hiver
+                        brutal dans une inexorable lutte pour survivre et
+                        trouver la rédemption.
+                      </p>
+                    </div>
+
+                    <div class="modal-footer">
+                      <button
+                        type="button"
+                        class="btn btn-primary"
+                        data-bs-dismiss="modal"
+                      >
+                        Fermer
+                      </button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <!-- Bootstrap modal -->
+            </div>
+          </div>
+          <!-- Programme for the fourth day -->
         </div>
-    </section>
+      </section>
 
-    <!-- Reservation section -->
-    <section
-            id="réservations"
-            class="d-flex flex-column align-items-center pt-2 pb-4"
-    >
+      <!-- Reservation section -->
+      <section
+        id="réservations"
+        class="d-flex flex-column align-items-center pt-2 pb-4"
+      >
         <h2 class="text-center mb-3">Réservez ici</h2>
         <i class="fas fa-arrow-down fa-2x"></i>
         <div class="mt-5 w-75">
-            <!-- Form reservation -->
-            <form action="#" method="post" class="m-auto">
-                <div class="mb-4">
-                    <label for="name">Nom</label>
-                    <input
-                            type="text"
-                            name="name"
-                            id="name"
-                            required
-                            class="input-form py-2 px-3"
-                    />
-                </div>
-                <div class="mb-4">
-                    <label for="email">Email</label>
-                    <input
-                            type="email"
-                            name="email"
-                            id="email"
-                            required
-                            class="input-form py-2 px-3"
-                    />
-                </div>
-                <div class="mb-4">
-                    <label for="message">Message</label>
-                    <textarea
-                            name="message"
-                            id="message"
-                            required
-                            placeholder="Veuillez indiquer le titre du film, le nombre de places que vous voulez et la date à laquelle vous voulez y assister..."
-                            class="input-form p-3"
-                    ></textarea>
-                </div>
-                <button
-                        type="submit"
-                        id="btn-submit"
-                        class="btn btn-outline-primary mt-md-3"
-                >
-                    Envoyer
-                </button>
-            </form>
-            <!-- Form reservation -->
-        </div>
-    </section>
-
-    <!-- Actualities section -->
-    <section id="actualités" class="mt-5">
-        <div
-                class="bg-overlay-actu d-flex flex-column justify-content-center align-items-center p-5"
-        >
-            <h2>Actualités</h2>
-
-            <!-- bootstrap carousel module -->
-            <div
-                    id="carouselActualities"
-                    class="carousel slide my-5"
-                    data-bs-ride="carousel"
-            >
-                <div class="carousel-inner">
-                    <!-- Actuality 1 -->
-                    <div class="carousel-item active">
-                        <div class="actu-container d-flex flex-column flex-md-row mt-3 mt-md-0">
-                            <img
-                                    src="images/cinema-en-plein-air.webp"
-                                    class="d-none d-md-block h-100"
-                                    alt="annonce ouverture du festival"
-                            />
-                            <div
-                                    class="d-flex flex-column justify-content-center align-items-center m-auto pt-3 pt-md-0 w-75"
-                            >
-                                <h3 class="h2 text-center mb-2">
-                                    Le Festival de Plein Air Arrive !!
-                                </h3>
-                                <p class="text-center">
-                                    Venez découvrir nos films d'auteur du 05/08 au 08/08
-                                </p>
-                                <p class="text-center">Les inscriptions sont ouvertes</p>
-                            </div>
-                        </div>
-                    </div>
-                    <!-- Actuality 1 -->
-
-                    <!-- Actuality 2 -->
-                    <div class="carousel-item">
-                        <div class="actu-container d-flex flex-column flex-md-row mt-3 mt-md-0">
-                            <img
-                                    src="images/melancholia.webp"
-                                    class="d-none d-md-block h-100"
-                                    alt="affiche melancholia"
-                            />
-                            <div
-                                    class="d-flex flex-column justify-content-center align-items-center m-auto pt-3 pt-md-0 w-75"
-                            >
-                                <h3 class="h2 text-center mb-2">
-                                    Film d'ouverture du festival
-                                </h3>
-                                <p class="text-center">Melancholia</p>
-                                <p class="text-center">
-                                    Venez découvrir ce chef-d'œuvre de Lars Von Trier le 05/08
-                                    de 18h00 à 19h30
-                                </p>
-                            </div>
-                        </div>
-                    </div>
-                    <!-- Actuality 2 -->
-
-                    <!-- Actuality 3 -->
-                    <div class="carousel-item">
-                        <div class="actu-container d-flex flex-column flex-md-row mt-3 mt-md-0">
-                            <img
-                                    src="images/the-revenant.webp"
-                                    class="d-none d-md-block h-100"
-                                    alt="affiche the revenant"
-                            />
-                            <div
-                                    class="d-flex flex-column justify-content-center align-items-center m-auto pt-3 pt-md-0 w-75"
-                            >
-                                <h3 class="h2 text-center mb-2">
-                                    Film de cloture du festival
-                                </h3>
-                                <p class="text-center">The Revenant</p>
-                                <p class="text-center">
-                                    Venez assister à la dernière projection du festival le
-                                    08/08 de 22h00 à 00h00
-                                </p>
-                            </div>
-                        </div>
-                    </div>
-                    <!-- Actuality 3 -->
-                </div>
-
-                <!-- Button change actuality -->
-                <button
-                        class="carousel-control-prev"
-                        type="button"
-                        data-bs-target="#carouselActualities"
-                        data-bs-slide="prev"
-                >
-              <span
-                      class="carousel-control-prev-icon"
-                      aria-hidden="true"
-              ></span>
-                    <span class="visually-hidden">Previous</span>
-                </button>
-                <button
-                        class="carousel-control-next"
-                        type="button"
-                        data-bs-target="#carouselActualities"
-                        data-bs-slide="next"
-                >
-              <span
-                      class="carousel-control-next-icon"
-                      aria-hidden="true"
-              ></span>
-                    <span class="visually-hidden">Next</span>
-                </button>
-                <!-- Button change actuality -->
+          <!-- Form reservation -->
+          <form action="#" method="post" class="m-auto">
+            <div class="mb-4">
+              <label for="name">Nom</label>
+              <input
+                type="text"
+                name="name"
+                id="name"
+                required
+                class="input-form py-2 px-3"
+              />
             </div>
-            <!-- bootstrap carousel module -->
+            <div class="mb-4">
+              <label for="email">Email</label>
+              <input
+                type="email"
+                name="email"
+                id="email"
+                required
+                class="input-form py-2 px-3"
+              />
+            </div>
+            <div class="mb-4">
+              <label for="message">Message</label>
+              <textarea
+                name="message"
+                id="message"
+                required
+                placeholder="Veuillez indiquer le titre du film, le nombre de places que vous voulez et la date à laquelle vous voulez y assister..."
+                class="input-form p-3"
+              ></textarea>
+            </div>
+            <button
+              type="submit"
+              id="btn-submit"
+              class="btn btn-outline-primary mt-md-3"
+            >
+              Envoyer
+            </button>
+          </form>
+          <!-- Form reservation -->
         </div>
-    </section>
-</main>
-<!-- Main -->
+      </section>
 
-<!-- Footer -->
-<footer class="p-5 mt-1 text-center text-md-start">
-    <div class="row">
+      <!-- Actualities section -->
+      <section id="actualités" class="mt-5">
+        <div
+          class="bg-overlay-actu d-flex flex-column justify-content-center align-items-center p-5"
+        >
+          <h2>Actualités</h2>
+
+          <!-- bootstrap carousel module -->
+          <div
+            id="carouselActualities"
+            class="carousel slide my-5"
+            data-bs-ride="carousel"
+          >
+            <div class="carousel-inner">
+              <!-- Actuality 1 -->
+              <div class="carousel-item active">
+                <div
+                  class="actu-container d-flex flex-column flex-md-row mt-3 mt-md-0"
+                >
+                  <img
+                    src="images/cinema-en-plein-air.webp"
+                    class="d-none d-md-block h-100"
+                    alt="annonce ouverture du festival"
+                  />
+                  <div
+                    class="d-flex flex-column justify-content-center align-items-center m-auto pt-3 pt-md-0 w-75"
+                  >
+                    <h3 class="h2 text-center mb-2">
+                      Le Festival de Plein Air Arrive !!
+                    </h3>
+                    <p class="text-center">
+                      Venez découvrir nos films d'auteur du 05/08 au 08/08
+                    </p>
+                    <p class="text-center">Les inscriptions sont ouvertes</p>
+                  </div>
+                </div>
+              </div>
+              <!-- Actuality 1 -->
+
+              <!-- Actuality 2 -->
+              <div class="carousel-item">
+                <div
+                  class="actu-container d-flex flex-column flex-md-row mt-3 mt-md-0"
+                >
+                  <img
+                    src="images/melancholia.webp"
+                    class="d-none d-md-block h-100"
+                    alt="affiche melancholia"
+                  />
+                  <div
+                    class="d-flex flex-column justify-content-center align-items-center m-auto pt-3 pt-md-0 w-75"
+                  >
+                    <h3 class="h2 text-center mb-2">
+                      Film d'ouverture du festival
+                    </h3>
+                    <p class="text-center">Melancholia</p>
+                    <p class="text-center">
+                      Venez découvrir ce chef-d'œuvre de Lars Von Trier le 05/08
+                      de 18h00 à 19h30
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <!-- Actuality 2 -->
+
+              <!-- Actuality 3 -->
+              <div class="carousel-item">
+                <div
+                  class="actu-container d-flex flex-column flex-md-row mt-3 mt-md-0"
+                >
+                  <img
+                    src="images/the-revenant.webp"
+                    class="d-none d-md-block h-100"
+                    alt="affiche the revenant"
+                  />
+                  <div
+                    class="d-flex flex-column justify-content-center align-items-center m-auto pt-3 pt-md-0 w-75"
+                  >
+                    <h3 class="h2 text-center mb-2">
+                      Film de cloture du festival
+                    </h3>
+                    <p class="text-center">The Revenant</p>
+                    <p class="text-center">
+                      Venez assister à la dernière projection du festival le
+                      08/08 de 22h00 à 00h00
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <!-- Actuality 3 -->
+            </div>
+
+            <!-- Button change actuality -->
+            <button
+              class="carousel-control-prev"
+              type="button"
+              data-bs-target="#carouselActualities"
+              data-bs-slide="prev"
+            >
+              <span
+                class="carousel-control-prev-icon"
+                aria-hidden="true"
+              ></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button
+              class="carousel-control-next"
+              type="button"
+              data-bs-target="#carouselActualities"
+              data-bs-slide="next"
+            >
+              <span
+                class="carousel-control-next-icon"
+                aria-hidden="true"
+              ></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+            <!-- Button change actuality -->
+          </div>
+          <!-- bootstrap carousel module -->
+        </div>
+      </section>
+    </main>
+    <!-- Main -->
+
+    <!-- Footer -->
+    <footer class="p-5 mt-1 text-center text-md-start">
+      <div class="row">
         <div class="logo-container-footer">
-            <!-- Logo -->
-            <img src="images/logo.png" alt="Logo" class="mb-5 w-100"/>
+          <!-- Logo -->
+          <img src="images/logo.png" alt="Logo" class="mb-5 w-100" />
         </div>
         <div class="col-md-4">
-            <h3>A propos de l'association</h3>
-            <p>
-                L'association " Les Films de Plein air" à pour but de faire
-                découvrir au grand public, des films d'auteur de façon gratuite.
-                Venez nous rencontrer du 05/08 au 05/08 2023.
-            </p>
+          <h3>A propos de l'association</h3>
+          <p>
+            L'association " Les Films de Plein air" à pour but de faire
+            découvrir au grand public, des films d'auteur de façon gratuite.
+            Venez nous rencontrer du 05/08 au 05/08 2023.
+          </p>
         </div>
         <div class="col-md-2">
-            <h3>Adresse</h3>
-            <p>Parc Monceau<br/>Paris</p>
+          <h3>Adresse</h3>
+          <p>Parc Monceau<br />Paris</p>
         </div>
         <div class="col-md-3">
-            <h3>Date et heure</h3>
-            <p>
-                Du 05 au 08 août 2023 <br/>
-                18h00 à minuit
-            </p>
+          <h3>Date et heure</h3>
+          <p>
+            Du 05 au 08 août 2023 <br />
+            18h00 à minuit
+          </p>
         </div>
         <div class="col-md-3">
-            <div
-                    id="button-footer-container"
-                    class="d-lg-flex justify-content-lg-center"
+          <div
+            id="button-footer-container"
+            class="d-lg-flex justify-content-lg-center"
+          >
+            <!-- Button for reservation -->
+            <a
+              class="btn btn-primary mt-3 mt-md-0 mx-lg-3"
+              href="#réservations"
             >
-                <!-- Button for reservation -->
-                <a
-                        class="btn btn-primary mt-3 mt-md-0 mx-lg-3"
-                        href="#réservations"
-                >
-                    Réserver
-                </a>
-            </div>
+              Réserver
+            </a>
+          </div>
         </div>
         <!-- Google map module -->
         <iframe
-                class="mt-5 mt-md-4"
-                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2623.8735531366565!2d2.306766315882296!3d48.87968700716068!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47e66fbe98f714c3%3A0xe62425fddeddc402!2sParc%20Monceau!5e0!3m2!1sfr!2sfr!4v1669712724872!5m2!1sfr!2sfr"
-                width="600"
-                height="300"
-                style="border: 0"
-                allowfullscreen=""
-                loading="lazy"
-                referrerpolicy="no-referrer-when-downgrade"
+          class="mt-5 mt-md-4"
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2623.8735531366565!2d2.306766315882296!3d48.87968700716068!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47e66fbe98f714c3%3A0xe62425fddeddc402!2sParc%20Monceau!5e0!3m2!1sfr!2sfr!4v1669712724872!5m2!1sfr!2sfr"
+          width="600"
+          height="300"
+          style="border: 0"
+          allowfullscreen=""
+          loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade"
         ></iframe>
-    </div>
-</footer>
-<!-- Footer -->
+      </div>
+    </footer>
+    <!-- Footer -->
 
-<!-- Bootstrap javascript -->
-<script
-        src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
-        crossorigin="anonymous"
-></script>
-</body>
+    <!-- Bootstrap javascript -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"
+    ></script>
+  </body>
 </html>
